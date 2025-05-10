@@ -22,7 +22,7 @@ const EditTask = () => {
     const fetchTask = async () => {
       const jwtToken = Cookies.get("jwtOritso");
       try {
-        const response = await fetch(`https://taskmanagerbackenddaveedgangi.onrender.com/${id}`, {
+        const response = await fetch(`https://taskmanagerbackenddaveedgangi.onrender.com/getTask${id}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${jwtToken}`,
