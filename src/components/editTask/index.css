@@ -1,0 +1,59 @@
+.edit-task-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #f9fafb;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.edit-task-container h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.edit-task-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.edit-task-container input[type="text"],
+.edit-task-container input[type="date"],
+.edit-task-container textarea,
+.edit-task-container select {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.edit-task-container input:focus,
+.edit-task-container textarea:focus,
+.edit-task-container select:focus {
+  border-color: #007bff;
+}
+
+.edit-task-container textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.edit-task-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.edit-task-container button:hover {
+  background-color: #0056b3;
+}
