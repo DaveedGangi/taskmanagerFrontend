@@ -189,4 +189,4 @@ MIT
 
 **Daveed Gangi**  
 Web Developer  
-[LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)
+[LinkedIn](https://www.linkedin.com/in/g-daveed-365958190/) | [GitHub](https://github.com/DaveedGangi)
